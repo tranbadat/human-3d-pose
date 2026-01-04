@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Project artifacts — large binaries / generated outputs
+checkpoint/
+outputs_h3wb/
+outputs_video/
+outputs/
+image_features/
+dataset/
+images/
+figures/
+
+# Model weights & data
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.h5
+*.hdf5
+
+# Media
+*.mp4
+*.avi
+*.mov
+*.gif
+*.png
+*.jpg
+*.jpeg
+!figures/**/*.png
+!figures/**/*.jpg
+
+# Logs
+*.log
+runs/
+wandb/
+tb_logs/
+lightning_logs/
+
+# Local
+.env
+.env.local
+*.local

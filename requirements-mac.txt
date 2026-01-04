@@ -1,0 +1,12 @@
+# Minimal deps for local sanity check on macOS M-series (MPS / CPU).
+# For full CUDA training on RTX 6000, see Dockerfile.
+torch>=2.1
+einops
+timm
+numpy
+tqdm
+fvcore
+pytz
+opencv-python
+tensorboard
+matplotlib

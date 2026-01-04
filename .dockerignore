@@ -1,0 +1,68 @@
+# VCS
+.git/
+.gitignore
+.github/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+.claude/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large data / artifacts — must NOT bloat the build context
+dataset/
+images/
+image_features/
+outputs/
+outputs_h3wb/
+outputs_video/
+checkpoint/
+figures/
+runs/
+wandb/
+tb_logs/
+lightning_logs/
+
+# Heavy binaries
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.h5
+*.hdf5
+
+# Media
+*.mp4
+*.avi
+*.mov
+*.gif
+
+# Local config
+.env
+.env.local
+*.log
+
+# Docker meta
+Dockerfile
+.dockerignore
